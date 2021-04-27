@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+@font-face {
+    font-family: 'Orelega';
+    src: url('fonts/OrelegaOne-Regular.ttf');
+}
 
 .super,em{
     color: blue;
