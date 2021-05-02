@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Orlega';
+    src: url(fonts/OrelegaOne-Regular.ttf);
+}
+
+
+p{
+    color: rebeccapurple;
+}
+
+h1{
+    font-family: 'Orlega';
+}
+.try{
+    text-align: right;
+}
+body{
+    background-image: url("Image/G0110548.JPG");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+
+img{
+    border: turquoise dashed 2px;
+    float: right;
+}
+
+.ombre{
+    text-shadow: 3px 3px .3em grey;
+}
