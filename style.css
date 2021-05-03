@@ -1,31 +1,18 @@
-@font-face {
-    font-family: 'Orlega';
-    src: url(fonts/OrelegaOne-Regular.ttf);
+.container{
+    border: solid;
+    display: flex;
+}
+.element{
+    width: 100px;
+    height: 100px;
+}
+.element:nth-child(1){
+    background-color: red;
 }
 
-
-p{
-    color: rebeccapurple;
+.element:nth-child(2){
+    background-color: green;
 }
-
-h1{
-    font-family: 'Orlega';
-}
-.try{
-    text-align: right;
-}
-body{
-    background-image: url("Image/G0110548.JPG");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-
-}
-
-img{
-    border: turquoise dashed 2px;
-    float: right;
-}
-
-.ombre{
-    text-shadow: 3px 3px .3em grey;
+.element:nth-child(3){
+    background-color: blue;
 }
